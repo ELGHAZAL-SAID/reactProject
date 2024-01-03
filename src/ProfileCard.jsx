@@ -15,7 +15,7 @@ const ProfileCard = ({ name, username, email, about, photo, age, address, hobbie
             <p>mobility: {mobility}</p>
             <p>diponibility: {disponibility}</p>
             <ul>
-                {hobbies.map((i, el) => (<li key={i}>{el}</li>))}
+                {hobbies.map((el, i) => (<li key={i}>{el}</li>))}
             </ul>
         </div>
     </>

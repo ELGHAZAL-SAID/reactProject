@@ -1,13 +1,12 @@
 import './App.css'
-import UserProfileCard  from './UserProfileCard '
+import CardViewer from './CardViewer'
 function App() {
 
-  return (
-    <>
-      <UserProfileCard></UserProfileCard>
-      
-    </>
-  )
+    return (
+        <>
+            <CardViewer></CardViewer>
+        </>
+    )
 }
 
 
