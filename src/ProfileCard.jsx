@@ -9,7 +9,8 @@ const ProfileCard = ({ name, username, email, about, photo, age, address, hobbie
             <p>Email: {email}</p>
             <p>About: {about}</p>
         </div>
-        <div>
+        <span>Show More</span>
+        <div class="hiddenInfo">
             <p>age: {age}</p>
             <p>Address: {address}</p>
             <p>mobility: {mobility}</p>
