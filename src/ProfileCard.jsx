@@ -12,9 +12,13 @@ const ProfileCard = ({ name, username, email, about,photo, age, address, hobbies
         <div>
             <p>age: {age}</p>
             <p>Address: {address}</p>
+            <p>mobilite: {mobilite}</p>
+            <p>disponibilité: {disponibilité}</p>
             <ul>
                 {hobbies.map((i, el)=>(<li key={i}>{el}</li>))}
             </ul>
+
+
         </div>
     </>
     );
