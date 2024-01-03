@@ -1,13 +1,12 @@
 import './App.css'
-import UserProfileCard  from './UserProfileCard '
+import CardViewer from './CardViewer'
 function App() {
 
-  return (
-    <>
-      <UserProfileCard></UserProfileCard>
-      
-    </>
-  )
+    return (
+        <div className='flex justify-center items-center h-screen'>
+            <CardViewer></CardViewer>
+        </div>
+    )
 }
 
 
