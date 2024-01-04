@@ -15,7 +15,7 @@ const [hidden,setshow] = useState(false)
             <p className='text-[15px]  text-center text-gray-400'>{about}</p>
         </div>
             <div className='flex justify-center items-center'>
-        <button onClick={()=>{hidden == false ? setshow(true) : setshow(false)}} className='bg-violet-600  px-6 py-2 my-3 mx-auto text-white ' >Show More</button>
+        <button onClick={()=>{hidden == false ? setshow(true) : setshow(false)}} className='bg-violet-600  px-6 py-2 my-3 mx-auto text-white ' >{hidden == false ? "Show More" : "show less"}</button>
             </div>
         {
             hidden &&
