@@ -1,7 +1,7 @@
 // Navbar.jsx
 import React from 'react';
 
-const Navbar = ({ userData }) => {
+const Navbar = () => {
   return (
     <nav className='navbar navbar-expand-lg navbar-dark bg-dark'>
       <div className='container-fluid'>
@@ -13,11 +13,11 @@ const Navbar = ({ userData }) => {
           />
         </a>
         <div className='d-flex'>
-          {userData.map((member, index) => (
-            <div key={index} className='mx-2 text-white'>
-              {member.name}
-            </div>
-          ))}
+          <p>AIMAD HASNAOUI</p>
+          <p>AIMAD HASNAOUI</p>
+          <p>AIMAD HASNAOUI</p>
+          <p>AIMAD HASNAOUI</p>
+          <p>AIMAD HASNAOUI</p>
         </div>
       </div>
     </nav>
