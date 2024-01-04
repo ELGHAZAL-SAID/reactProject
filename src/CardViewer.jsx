@@ -1,6 +1,7 @@
 import ProfileCard from './ProfileCard';
 import { Splide, SplideSlide } from '@splidejs/react-splide';
 import '@splidejs/splide/dist/css/themes/splide-default.min.css';
+import img from './assets/2.jpeg'
 
 const UserData = [
     {
