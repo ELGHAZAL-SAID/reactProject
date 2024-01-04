@@ -4,11 +4,11 @@ import '@splidejs/splide/dist/css/themes/splide-default.min.css';
 
 const UserData = [
     {
-        name: 'John Doe',
-        username: 'john_doe123',
-        email: 'john.doe@example.com',
+        name: 'aimad hasnaoui',
+        username: 'aimad_has123',
+        email: 'aimad.has@example.com',
         about: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-        photo: 'https://th.bing.com/th/id/R.05428153738491119045626b512e0fdd?rik=c2qDJdtJ1ICvgw&pid=ImgRaw&r=0',
+        photo: 'https://avatars.githubusercontent.com/u/96472794?v=4',
         age: 25,
         address: '123 Main St, Cityville, Country',
         mobility: 'Yes',
