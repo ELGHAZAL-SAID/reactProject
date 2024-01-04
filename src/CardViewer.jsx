@@ -3,7 +3,7 @@ import { Splide, SplideSlide } from "@splidejs/react-splide";
 import "@splidejs/splide/dist/css/themes/splide-default.min.css";
 import img from "./assets/2.jpeg";
 
-const UserData = [
+export const UserData = [
   {
     name: "aimad hasnaoui",
     username: "aimad_has123",
