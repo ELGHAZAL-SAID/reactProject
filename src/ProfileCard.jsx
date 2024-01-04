@@ -4,7 +4,7 @@ const ProfileCard = ({ name, username, email, about, photo, age, address, hobbie
 const [hidden,setshow] = useState(false)
 
     return (
-    <div className={`${hidden ? "h-auto" : "h-[400px]"} bg-white rounded-lg p-5 m-4`}>
+    <div className={`${hidden ? "h-auto" : "h-[450px]"} bg-white rounded-lg p-5 m-4`}>
         <div>
             <div className='w-full flex justify-center'> 
             <img src={photo} alt="" className="img" />

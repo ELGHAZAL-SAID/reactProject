@@ -1,6 +1,7 @@
 import ProfileCard from './ProfileCard';
 import { Splide, SplideSlide } from '@splidejs/react-splide';
 import '@splidejs/splide/dist/css/themes/splide-default.min.css';
+import img from './assets/2.jpeg'
 
 const UserData = [
     {
@@ -16,16 +17,16 @@ const UserData = [
         hobbies: ['Reading', 'Traveling', 'Coding'],
     },
     {
-        name: 'Jane Smith',
-        username: 'jane_smith456',
-        email: 'jane.smith@example.com',
+        name: 'Bougamza Yasser',
+        username: 'Bougamza_yasser',
+        email: 'bgmz.yasser@gmail.com',
         about: 'Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-        photo: 'https://th.bing.com/th/id/R.05428153738491119045626b512e0fdd?rik=c2qDJdtJ1ICvgw&pid=ImgRaw&r=0',
-        age: 30,
+        photo: img,
+        age: 25,
         address: '456 Oak St, Townsville, Country',
-        mobility: 'No',
-        disponibility: 'Part-time',
-        hobbies: ['Painting', 'Hiking', 'Cooking'],
+        mobility: 'Yes',
+        disponibility: 'Full-time',
+        hobbies: ['Football', 'Traveling', 'Swimming'],
     },
     {
         name: 'Jane Smith',
