@@ -12,12 +12,13 @@ const Navbar = () => {
             className='h-8'
           />
         </a>
-        <div className='d-flex'>
-          <p>AIMAD HASNAOUI</p>
-          <p>AIMAD HASNAOUI</p>
-          <p>AIMAD HASNAOUI</p>
-          <p>AIMAD HASNAOUI</p>
-          <p>AIMAD HASNAOUI</p>
+        <div className='d-flex text-white gap-4'>
+          <p className='text-[10px]'>AIMAD HASNAOUI</p>
+          <p className='text-[10px]'>Bougamza yasser</p>
+          <p className='text-[10px]'>khadija HAMDIOUI</p>
+          <p className='text-[10px]'>youssef KHERDIOUI</p>c
+          <p className='text-[10px]'>Benaissa Amari</p>
+          <p className='text-[10px]'>Said EL GHAZAL </p>
         </div>
       </div>
     </nav>
